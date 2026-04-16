@@ -1,0 +1,258 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family:  'Poppins', sans-serif;
+ color: #1f2937;
+ background-color: var(#f3f4f6);
+}
+
+
+
+
+
+.topo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.logo{
+    flex: 20%;
+}
+.logo h1{
+    font-size: 40px;
+}
+
+.nav-bar{
+    flex: 80%;
+    /* background-color: blue; */
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: flex-end;
+}
+.nav-bar ul li{
+    gap: 10%;
+}
+.nav-bar a{
+text-decoration: none;
+color: black;
+font-weight: 500;
+font-size: 30px;
+/* border-top: 3px solid blue; */
+}
+.nav-bar a:hover{
+color: blue;
+border-top: 4px solid blue;
+
+}
+
+#btn-flr{
+    background-color: aqua;
+margin-right: 10%;
+font-weight: bold;
+border-radius: 5%;
+padding: 10px 20px;
+}
+
+#btn-flr:hover{ 
+    background-color: blue;
+    color: white;
+    border-top: 4px solid aqua;
+    padding: 25px;
+
+}
+
+
+
+/* hero */
+.hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 5%;
+    margin-top: 100px;
+    flex-flow:row wrap;
+
+}
+.hero-text{
+/* width: 100%; */
+    /* max-width: 500px; */
+/* border: 3px solid red; */
+flex: 40%;
+align-items: centerr;
+justify-content: center;
+
+}
+.hero-text h1{
+    font-size: 90px;
+    letter-spacing: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+
+}
+
+.hero-text h2{
+margin-top: 15px;
+font-size: 60px;
+}
+.hero-text p{
+
+font-size: 40px;
+margin-top: 14px;
+margin-bottom: 50px;
+}
+
+.btn-hero{
+    margin-top: 19px;
+    background-color:blue;
+    color: black;
+    text-decoration: none;
+    padding: 19px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    color: white;
+}
+.btn-hero:hover{
+background-color: aqua;
+color: #000000;
+padding: 22px;
+font-weight: bold;
+}
+
+.hero-img{
+
+    flex: 40%;
+}
+.hero-img img{
+/* width: 100%; */
+max-width: 100%;
+border-radius: 10px;
+
+}
+
+.sobre{
+margin-top: 60px;
+    /* border: 2px solid green; */
+   display: flex;
+    /* background-color: bisque; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 80px 5%;
+    justify-content: center;
+}
+
+.sobre-texto{
+flex: 50%;
+/* border: 10px solid black; */
+/* font-size: 60px; */
+}
+.sobre-texto h2{
+    font-size: 90px;
+    text-align: center;
+}
+.sobre-texto p{
+
+    font-size: 60px;
+    word-spacing: 10px;
+}
+
+.sobre-img{
+flex: 40%;
+align-self: center;
+text-align: center;
+/* border: 10px solid pink; */
+
+}
+.sobre-img img{
+max-width: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* nossos servicos */
+.servicos{
+padding: 80px 5%;
+/* border: 2px solid blue; */
+text-align: center;
+}
+
+.servicosh h2{
+ margin-bottom: 80px;
+
+}
+
+
+.cards{
+display: flex;
+/* border: 4px solid tomato; */
+gap: 20px;
+flex-wrap: wrap;
+margin-bottom: 30px;
+}
+.card{
+flex: 1;
+padding: 30px;
+/* background-color: beige; */
+border-radius: 10px;
+min-width: 250px;
+transition: 0.4s;
+border: 3px solid greenyellow;
+margin-top: 30px;
+}
+
+
+.card:hover{
+    transform: translateY(-7px);
+   background-color:  blue;
+   color: white;
+
+}
+
+
+/* COntacto */
+.contacto{
+
+    text-align: center;
+    padding: 60px;
+
+}
+
+.whats{
+background-color: rgb(65, 234, 65);
+padding: 20px;
+position: fixed;
+bottom: 30px;
+right: 20px;
+text-decoration: none;
+color: hsl(226, 11%, 30%);
+border-radius:20px ;
+
+
+}
+.whats:hover{
+    padding: 15px;
+    color: aqua;
+    background-color: hsl(226, 11%, 30%);;
+}
+
+footer{
+    margin-top: 70px;
+ padding: 40px;
+    text-align: center;
+    background-image: linear-gradient();
+}

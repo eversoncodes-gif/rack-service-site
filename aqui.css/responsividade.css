@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1005px) {
+    .nav-bar{
+display: block;
+
+    }
+    .nav-bar ul{
+        display: block;
+        }
+.nav-bar ul li{
+    gap: 20px;
+    padding: 12px;
+}
+
+
+
+    
+}
