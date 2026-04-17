@@ -4,14 +4,47 @@ display: block;
 
     }
     .nav-bar ul{
-        display: block;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
         }
-.nav-bar ul li{
+/* .nav-bar ul li{
     gap: 20px;
     padding: 12px;
+} */
+
+.hero{
+    flex-direction: column;
+}
+.hero{
+    margin-top: 130px;
+}
+.hero-text h1{
+font-size: 40px;
+font-weight: 900;
+
+}
+.hero-text h2{
+
+    font-size: 32px;
+    font-weight: none;
+}
+.hero-text p{
+    font-weight: 50;
+    font-size: 30px;
+}
+.hero-img img{
+    margin-top: 36px;
+    border: 1px solid black;
 }
 
+.sobre-texto h2{
+font-size: 60px;
 
-
+}
+.sobre-texto p{
+font-size: 40px;
+text-align: center;
+}
     
 }
