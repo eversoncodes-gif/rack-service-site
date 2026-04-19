@@ -6,14 +6,18 @@
     box-sizing: border-box;
 }
 body{
+    /* background-image: linear-gradient(hwb(0 87% 12% / 0.979),rgb(173, 173, 173)); */
  font-family:  'Poppins', sans-serif;
  color: #1f2937;
- background-color: var(#f3f4f6);
+ 
 }
 
 
 
 
+
+
+/* ESSE e o topo */
 
 .topo{
   display: flex;
@@ -32,6 +36,15 @@ body{
 .logo h1{
     font-size: 40px;
 }
+.rack{
+    color: green;
+}
+.lda{color: red;
+
+}
+
+
+
 
 .nav-bar{
     flex: 80%;
@@ -60,16 +73,18 @@ border-top: 4px solid blue;
 }
 
 #btn-flr{
-    background-color: aqua;
+    /* background-color: aqua; */
 margin-right: 10%;
 font-weight: bold;
 border-radius: 5%;
 padding: 10px 20px;
+background-image: linear-gradient(to right, green,red);
+color: white;
 }
 
 #btn-flr:hover{ 
     background-color: blue;
-    color: white;
+    color: black;
     border-top: 4px solid aqua;
     /* padding: 25px; */
 transform: scale(1.05s);
@@ -79,7 +94,7 @@ transform: scale(1.05s);
 
 /* hero */
 .hero{
-
+ border: 3px solid green;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -92,33 +107,31 @@ transform: scale(1.05s);
 /* width: 100%; */
     /* max-width: 500px; */
 /* border: 3px solid red; */
-flex: 40%;
+/* flex: 40%; */
 align-items: centerr;
 justify-content: center;
-
+/* background-image: linear-gradient(hwb(0 87% 12% / 0.979),rgb(173, 173, 173)); */
 }
 .hero-text h1{
-    font-size: 90px;
+    font-size: 50px;
     letter-spacing: 18px;
     text-transform: capitalize;
     font-weight: 700;
-
 }
 
 .hero-text h2{
 margin-top: 15px;
-font-size: 60px;
+font-size: 30px;
 }
 .hero-text p{
-
-font-size: 40px;
+font-size: 19px;
 margin-top: 14px;
 margin-bottom: 50px;
 }
 
 .btn-hero{
     margin-top: 19px;
-    background-color:blue;
+    background-color:green;
     color: black;
     text-decoration: none;
     padding: 19px;
@@ -127,21 +140,22 @@ margin-bottom: 50px;
     color: white;
 }
 .btn-hero:hover{
-background-color: aqua;
+background-image: linear-gradient(to right, green,red);
 color: #000000;
 padding: 22px;
 font-weight: bold;
 }
 
 .hero-img{
-
+/* background-image: linear-gradient(hwb(0 87% 12% / 0.979),rgb(173, 173, 173)); */
     flex: 40%;
 }
 .hero-img img{
-width: 100%;
+height: auto;
+    width: 100%;
 /* max-width: 100%; */
 border-radius: 10px;
-/*  */
+max-width: 50%;
 }
 
 .sobre{
@@ -162,12 +176,11 @@ flex: 50%;
 /* font-size: 60px; */
 }
 .sobre-texto h2{
-    font-size: 90px;
+    font-size: 50px;
     text-align: center;
 }
 .sobre-texto p{
-
-    font-size: 60px;
+    font-size: 35px;
     word-spacing: 10px;
 }
 
@@ -179,7 +192,7 @@ text-align: center;
 
 }
 .sobre-img img{
-max-width: 100%;
+max-width: 70%;
     width: 100%;
     border-radius: 20px;
 }
@@ -191,7 +204,7 @@ padding: 80px 5%;
 text-align: center;
 }
 
-.servicosh h2{
+.servicos h2{
  margin-bottom: 80px;
 
 }
@@ -211,16 +224,31 @@ padding: 30px;
 border-radius: 10px;
 min-width: 250px;
 transition: 0.4s;
-border: 3px solid greenyellow;
+border: 3px solid green;
 margin-top: 30px;
 }
 
+#cctv{
+
+max-width: 30%;
+width: 100%;
+}
+/* }
+.simbolos{
+    max-width: 20%;
+} */
+/* 
+
+.card img{
+    max-width: 30%;
+    width: 100%;
+} */
 
 .card:hover{
     transform: translateY(-7px);
    background-color:  blue;
    color: white;
-
+   cursor: pointer;
 }
 
 
@@ -229,8 +257,16 @@ margin-top: 30px;
 
     text-align: center;
     padding: 60px;
-
 }
+.contacto h2{
+    color: green;
+}
+/* .email{
+border-radius: 90px;
+background-color: green;
+margin-top: 40px;
+color: white;
+} */
 
 .whats{
 background-color: rgb(65, 234, 65);

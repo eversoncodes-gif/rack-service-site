@@ -1,18 +1,22 @@
 @media only screen and (max-width: 1005px) {
     .nav-bar{
-display: block;
+display: none;
 
     }
-    .nav-bar ul{
+    /* .nav-bar ul{
         flex-direction: column;
         align-items: center;
         gap: 15px;
-        }
+        } */
 /* .nav-bar ul li{
     gap: 20px;
     padding: 12px;
 } */
 
+.logo{
+    align-items: center;
+    text-align: center;}
+/* }
 .hero{
     flex-direction: column;
 }
@@ -29,7 +33,7 @@ font-weight: 900;
     font-size: 32px;
     font-weight: none;
 }
-.hero-text p{
+.hero-text p{g
     font-weight: 50;
     font-size: 30px;
 }
@@ -45,6 +49,14 @@ font-size: 60px;
 .sobre-texto p{
 font-size: 40px;
 text-align: center;
-}
+} */
+ .hero{
+    display: block;
+ }
+
+ .sobre{
+    display: block;
+ }
     
+ 
 }
