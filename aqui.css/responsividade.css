@@ -51,12 +51,47 @@ font-size: 40px;
 text-align: center;
 } */
  .hero{
-    display: block;
+    display: flex;
  }
+/*
+ .hero-text{
+    flex: 50%;
+  background-color: aqua;
+}
+
+
+ .hero-text h1{
+    font-size: 29px;
+ }
+ .hero-text h2{
+    font-size: 20px;
+     }
+.hero-text p{
+font-size: 18px;
+}
+.btn-hero{
+    padding: 17px;
+}*/
+
+ 
+  .hero-img {
+    margin-top: 29px;
+ } 
 
  .sobre{
-    display: block;
- }
-    
- 
+display: block; }
+    /* .sobre-texto{
+        flex: 40%;
+         }
+         .sobre-texto h2{
+
+            font-size: 20px;
+         }
+         .sobre-texto p{
+            font-size: 16px;
+         }
+    .sobre-img{
+        flex: 40%;
+    } */
+
 }
