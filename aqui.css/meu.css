@@ -38,8 +38,10 @@ body{
 }
 .rack{
     color: green;
+    font-weight: bold;
 }
 .lda{color: red;
+    font-weight: bold;
 
 }
 
@@ -229,29 +231,26 @@ margin-bottom: 30px;
 flex: 1;
 padding: 30px;
 /* background-color: beige; */
-/* border-radius: 10px; */
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 min-width: 250px;
 transition: 0.4s;
 border: 3px solid green;
 margin-top: 30px;
+text-align: center;
 }
+/* .card i{
+
+    font-size: 40px;
+    margin-bottom: 15pxs;
+    color: green;
+} */
 
 #cctv{
 
-max-width: 30%;
+max-width: 40%;
 width: 100%;
 }
-/* }
-.simbolos{
-    max-width: 20%;
-} */
-/* 
 
-.card img{
-    max-width: 30%;
-    width: 100%;
-} */
 
 .card:hover{
     transform: translateY(-5px);
@@ -259,6 +258,37 @@ width: 100%;
    color: white;
    cursor: pointer;
 }
+.galeria{
+    padding: 80px 5%;
+    text-align: center;
+    /* border: 5px solid black; */
+    margin: 10%;
+}
+
+.scroll-galeria{
+    display: flex;
+overflow-x: auto;
+gap: 20px;
+padding: 30px;
+scroll-behavior: smooth;
+}
+
+
+.scroll-galeria img{
+width: 100%;
+max-width: 70%;
+border-radius: 10px;
+cursor: pointer;
+flex-shrink: 0;
+
+}
+ .scroll-galeria ::-webkit-scrollbar{   
+}
+
+.scroll-galeria img:hover{
+transform: scale(1.05);
+}
+
 
 .extra-services{
     text-align: center;
