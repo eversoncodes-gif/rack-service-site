@@ -48,9 +48,9 @@ body{
 .menu-toggle{
     background-color: white;
     display: none;
-    border: none;
-    font-size: 20px;
-    cursor: crosshair;
+  
+    /* font-size: 20px; */
+    /* cursor: crosshair; */
 }
 
 
@@ -238,10 +238,11 @@ margin-bottom: 30px;
 flex: 1;
 padding: 30px;
 /* background-color: beige; */
-box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+box-shadow: 0 4px 10px rgba(0,0,0,0.13);
+border-radius: 2vw;
 min-width: 250px;
 transition: 0.4s;
-border: 3px solid green;
+/* border: 3px solid green; */
 margin-top: 30px;
 text-align: center;
 }
@@ -261,7 +262,7 @@ width: 100%;
 
 .card:hover{
     transform: translateY(-5px);
-   background-color:  hwb(0 22% 76%);
+   background-color:  rgba(0, 128, 0, 0.556);
    color: white;
    cursor: pointer;
 }
@@ -289,8 +290,8 @@ cursor: pointer;
 flex-shrink: 0;
 
 }
- .scroll-galeria ::-webkit-scrollbar{   
-}
+ /* .scroll-galeria ::-webkit-scrollbar{   
+} */
 
 .scroll-galeria img:hover{
 transform: scale(1.05);
