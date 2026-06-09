@@ -4,9 +4,10 @@
 .menu-toggle{
     color: green;
     display: block;
-    font-size: clamp(1.2rem, 3vw,2rem);
+    font-size: 23px;
     cursor: pointer;
-      border: none;
+    border: none;
+      
 }
 
 .nav-bar{
@@ -14,9 +15,8 @@ display: none;
 width: 100%;
 /* flex-direction: column; */
 background-color: white;
-
-    }
-.nav-bar .active{
+ }
+.nav-bar.active{
     display: block;
 }
 
