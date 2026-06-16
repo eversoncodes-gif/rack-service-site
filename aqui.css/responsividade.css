@@ -1,5 +1,9 @@
 @media only screen and (max-width: 1005px) {
     
+    .topo{
+        padding: 20px 35px;
+        align-items: center;
+    }
     /* aqui e o menu toggle*/
 .menu-toggle{
     color: green;
@@ -7,12 +11,18 @@
     font-size: 23px;
     cursor: pointer;
     border: none;
-      
+      z-index: 1000;
 }
 
 .nav-bar{
+    position: fixed;
+    top: 0;
+    right: 10px;
+    height: 100vh;
 display: none;
-width: 100%;
+padding-top: 120px;
+transition: right 1.8s ease;
+width: 60%;
 /* flex-direction: column; */
 background-color: white;
  }
@@ -23,9 +33,11 @@ background-color: white;
     .nav-bar ul{
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 40px;
         }
-
+.nav-bar a{
+    font-size: 17px;
+}
 
 .logo h1{
     font-size: 30px;
